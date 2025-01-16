@@ -1,0 +1,283 @@
+* {
+margin : 0;
+padding : 0;
+}
+body {
+padding-top : 0;
+font : 16px "Trebuchet MS", verdana, arial, sans-serif;
+background : #333;
+color : #000;
+}
+			/*WRAP*/
+#wrapper {
+width : 100%;
+background : #eee url("artwork/background-main.jpg") repeat;
+background-size : cover;
+color : #666;
+}
+
+
+
+			/*HEADER*/
+#banner {
+max-width : 800px;
+height : auto;
+margin-left : auto;
+margin-right : auto;
+background-color : none;
+text-align: center;
+}
+#banner img {
+max-width : 400px;
+margin : 30px auto 30px auto;
+}
+
+
+
+#header {
+width : 100%;
+height : auto;;
+margin : 0;
+padding : 0;
+text-align : center ;
+}
+
+
+
+				/*MAIN MENU*/
+#mainmenu {
+float : center;
+
+}
+#mainmenu li {
+display : inline-block;
+padding : 5px 10px;
+margin : 10px;
+border : 3px solid #7CB9E8;
+background-color : #F0F8FF;
+border-radius : 20px;
+outline : 1px solid white;
+color : black;
+}
+#mainmenu a {
+text-decoration : none;
+color : black;
+}
+#mainmenu a:hover {
+cursor : pointer;
+}
+
+
+
+
+
+
+
+					/*CONTENT*/
+#content {
+float : center;
+max-width : 800px;
+margin : 0 auto;
+padding : 5%;
+line-height : 1.8em;
+}
+
+#wilkommen {
+display : inline-block;
+float : center;
+width : contain;
+max-width : 90%;
+margin : 0 5%;
+height : auto;	
+}
+
+
+#wichtig {
+float : center;
+width : contain;
+max-width : 90%;
+margin : 20px auto 20px auto;
+background : #F0F8FF;
+border : 3px solid #7CB9E8;
+outline : 1px solid white;
+border-radius : 5px;
+padding : 5px;
+}
+
+
+
+#service {
+float : center;
+width : contain;
+max-width : 90%
+margin : 20px auto 20px auto;
+background : #F0F8FF;
+border : 3px solid #7CB9E8;
+outline : 1px solid white;
+border-radius : 5px;
+padding : 5px;
+}
+#service li {
+display : block;
+font-size : 150%;
+padding : 5px;
+}
+#service img {
+max-height : 20px;
+width : auto;
+padding : 0 15px;
+}
+
+
+#preise {
+width : auto;
+margin : 50px auto;
+}
+#preise table {
+margin-left : auto;
+margin-right : auto;
+background-color : #F0F8FF;
+border : 3px solid #7CB9E8;
+outline : 1px solid white;
+border-radius : 5px;
+outline : 1px white;
+}
+#preise th {
+width : auto;
+background : #7CB9E8;
+font-weight : 900;
+padding : 5px 10px;}
+#preise td {
+width : auto;
+padding : 5px 10px;
+background-color : #F0F8FF;
+border-bottom: 1px solid #7CB9E8;
+text-align : center;
+}
+#preise .firstcolumn {
+text-align : left;
+}
+
+
+
+
+
+
+
+
+
+
+
+					/*FOOTER*/
+#footer {
+clear : both;
+float : center;
+max-width : 800px;
+height : auto;
+margin : 5% auto 0 auto;
+padding : 3% 0;
+background : url("artwork/background-footer.png") repeat;
+background-size : 10%;
+background-position : 0% 50%;
+}
+#footer table {
+width: 100%;
+color : black;
+text-align : center;
+}
+
+
+
+
+
+			/*TYPOGRAPHY*/
+p {
+margin : 10px 20px 10px 15px;
+color : black;
+background-color : inherit;
+}
+h1 {
+margin : 0;
+padding : 20px;
+font-size : 200%;
+letter-spacing : 5px;
+color : black;
+background : inherit;
+}
+h2 {
+margin : 0 0 0 15px;
+padding : 5px;
+font-size : 120%;
+color : black;
+font-weight : 900;
+}
+h3 {
+margin : 0;
+padding : 5 px 20px;
+font-size : 200%;
+letter-spacing : 5px;
+color : black;
+background : inherit;
+}
+h4 {
+margin : 10px 0 10px 10px;
+padding : 0 0 0px 0px;
+letter-spacing : 2px;
+color : black;
+font-size : 16px;
+}
+h5 {
+margin : 0 0 0 15px;
+padding : 0;
+font-size : 70%;
+letter-spacing : 5px;
+text-transform : uppercase;
+color : #045FB4;
+background : inherit;
+}
+blockquote {
+margin : 10px 20px 10px 15px;
+font-weight : bold;
+font-style : italic;
+color : #b29b35;
+}
+
+
+
+			/*CLASS*/
+.map {
+display : block;
+float : center;
+max-width : 400px;
+height : auto;
+margin : 30px 20%;
+border : 3px solid #7CB9E8;
+outline : 1px solid white;
+border-radius : 10px;
+}
+
+
+.wilkommen-img {
+display : block;
+float : center;
+max-width : 400px;
+height : auto;
+margin : 0 auto;
+}
+
+.
+
+
+					/*LINKS*/
+a, a:visited {
+text-decoration : none;
+color : #369;
+background : inherit;
+}
+a:hover {
+color : #333;
+background : inherit;
+}
+a img {
+border : none;
+}
