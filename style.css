@@ -124,10 +124,10 @@ font-size : 150%;
 margin : 10px;
 }
 #service img {
-height :0.751em;
+height : 0.75em;
 width : auto;
 padding : 0 10px 0 0;
-
+}
 
 
 
@@ -251,7 +251,7 @@ color : #b29b35;
 .map {
 display : block;
 float : center;
-max-width : 70%;
+max-width : 600px;
 height : auto;
 margin : 30px auto;
 border : 3px solid #7CB9E8;
@@ -263,7 +263,7 @@ border-radius : 10px;
 .wilkommen-img {
 display : block;
 float : center;
-max-width : 70%;
+max-width : 400px;
 height : auto;
 margin : 0 auto;
 }
