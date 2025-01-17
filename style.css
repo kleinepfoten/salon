@@ -63,6 +63,7 @@ color : black;
 #mainmenu a {
 text-decoration : none;
 color : black;
+font-size : 150%;
 }
 #mainmenu a:hover {
 cursor : pointer;
@@ -120,7 +121,7 @@ padding : 5px;
 #service li {
 display : block;
 font-size : 150%;
-padding : 0 0 0 50px;
+padding : 0 0 0 10%;
 margin : 5px;
 background-image : url("artwork/bullet.png");
 background-repeat : no-repeat;
