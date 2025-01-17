@@ -53,7 +53,7 @@ float : center;
 display : inline-block;
 padding : 5px 10px;
 margin : 10px;
-font-size : 120%;
+font-size : 150%;
 border : 3px solid #7CB9E8;
 background-color : #F0F8FF;
 border-radius : 20px;
@@ -121,12 +121,13 @@ padding : 5px;
 #service li {
 display : block;
 font-size : 150%;
-padding : 0 0 0 10%;
-margin : 5px;
-background-image : url("artwork/bullet.png");
-background-repeat : no-repeat;
-background-size : contain;
+margin : 10px;
 }
+#service img {
+height :0.751em;
+width : auto;
+padding : 0 10px 0 0;
+
 
 
 
