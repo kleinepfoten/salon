@@ -28,7 +28,7 @@ background-color : none;
 text-align: center;
 }
 #banner img {
-max-width : 400px;
+max-width : 70%;
 margin : 30px auto 30px auto;
 }
 
@@ -53,6 +53,7 @@ float : center;
 display : inline-block;
 padding : 5px 10px;
 margin : 10px;
+font-size : 120%;
 border : 3px solid #7CB9E8;
 background-color : #F0F8FF;
 border-radius : 20px;
@@ -85,9 +86,8 @@ line-height : 1.8em;
 #wilkommen {
 display : inline-block;
 float : center;
-width : contain;
-max-width : 90%;
-margin : 0 5%;
+max-width : 70%;
+margin : 0 auto;
 height : auto;	
 }
 
@@ -120,13 +120,14 @@ padding : 5px;
 #service li {
 display : block;
 font-size : 150%;
-padding : 5px;
+padding : 0 0 0 50px;
+margin : 5px;
+background-image : url("artwork/bullet.png");
+background-repeat : no-repeat;
+background-size : contain;
 }
-#service img {
-max-height : 20px;
-width : auto;
-padding : 0 15px;
-}
+
+
 
 
 #preise {
@@ -248,9 +249,9 @@ color : #b29b35;
 .map {
 display : block;
 float : center;
-max-width : 400px;
+max-width : 70%;
 height : auto;
-margin : 30px 20%;
+margin : 30px auto;
 border : 3px solid #7CB9E8;
 outline : 1px solid white;
 border-radius : 10px;
@@ -260,9 +261,13 @@ border-radius : 10px;
 .wilkommen-img {
 display : block;
 float : center;
-max-width : 400px;
+max-width : 70%;
 height : auto;
 margin : 0 auto;
+}
+
+.wichtig-img {
+max-width : 40%;
 }
 
 .
