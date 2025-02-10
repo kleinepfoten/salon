@@ -144,16 +144,21 @@ outline : 1px white;
 width : auto;
 background : #7CB9E8;
 font-weight : 900;
-padding : 5px 10px;}
+padding : 5px 10px;
+}
 #preise td {
 width : auto;
 padding : 5px 10px;
+margin : 0;
 background-color : #F0F8FF;
-border-bottom: 1px solid #7CB9E8;
+border-bottom : 1px solid #7CB9E8;
 text-align : center;
 }
 #preise .firstcolumn {
 text-align : left;
+}
+#preise .left-border {
+border-left : 1px solid #7CB9E8;;
 }
 
 #fotogalerie li {
