@@ -20,16 +20,31 @@ color : #666;
 
 			/*HEADER*/
 #banner {
-max-width : 800px;
+width : 100%;
 height : auto;
+padding-top : 30px;
 margin-left : auto;
 margin-right : auto;
 background-color : none;
-text-align: center;
 }
-#banner img {
-max-width : 70%;
-margin : 30px auto 30px auto;
+#banner table {
+max-width : 90%;
+height : auto;
+margin-left : auto;
+margin-right : auto;
+}
+#banner td {
+width : auto;
+}
+#banner .banner-img {
+width : 500px;
+height : auto;
+}
+#banner p {
+font-weight : bold;
+padding : 0;
+margin-left : 5%;
+font-size : 150%;
 }
 
 
@@ -83,13 +98,16 @@ margin : 0 auto;
 padding : 5%;
 line-height : 1.8em;
 }
+#content .salon-img {
+width : 100%;
+border-radius : 20px;
+} 
 
 #wilkommen {
-display : inline-block;
-float : center;
-max-width : 70%;
-margin : 0 auto;
-height : auto;	
+width : 70%;
+margin-top : 30px;
+margin-left : auto;
+margin-right : auto;
 }
 
 
@@ -177,6 +195,13 @@ outline : 3px solid white;
 border-radius : 10px;
 }
 
+#kontakt {
+width : 70%;
+margin-top : 30px;
+margin-left : auto;
+margin-right : auto;
+}
+
 
 
 
@@ -233,19 +258,21 @@ color : black;
 font-weight : 900;
 }
 h3 {
-margin : 0 0 0 15px;
+margin : 0;
+line-height : 1.3em;
+line-height : 1.5em;
 padding : 5px;
-font-size : 200%;
+font-size : 150%;
 letter-spacing : 5px;
 color : black;
 background : inherit;
 }
 h4 {
-margin : 10px 0 10px 10px;
+margin : 10px 0;
 padding : 0 0 0px 0px;
 letter-spacing : 2px;
 color : black;
-font-size : 16px;
+font-size : 120%;
 }
 h5 {
 margin : 0 0 0 15px;
@@ -272,6 +299,11 @@ float : center;
 max-width : 400px;
 height : auto;
 margin : 30px auto;
+border : 3px solid #7CB9E8;
+outline : 1px solid white;
+border-radius : 10px;
+}
+.karte {
 border : 3px solid #7CB9E8;
 outline : 1px solid white;
 border-radius : 10px;
