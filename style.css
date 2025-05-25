@@ -149,7 +149,7 @@ margin-right : auto;
 #kunden-table {
 width : 100%;
 height : auto;
-Margin : 50px auto;
+margin : 20px auto;
 }
 #kunden-table td {
 width : 25%;
@@ -157,11 +157,14 @@ width : 25%;
 #kunden-table img {
 width : 80%;
 height : auto;
-margin-left : auto;
-margin-right : auto;
+margin : 20px auto;
 border : 3px solid #7CB9E8;
 outline : 3px solid white;
 border-radius : 10px;
+}
+#kunden-table a {
+color : black;
+font-size : 20px;
 }
 
 #visit-karte {
