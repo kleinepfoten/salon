@@ -1,0 +1,990 @@
+* {
+margin : 0;
+padding : 0;
+}
+body {
+padding-top : 0;
+font : 16px "Trebuchet MS", verdana, arial, sans-serif;
+background : #333;
+color : #000;
+}
+			/*WRAP*/
+#wrapper {
+width : 100%;
+background : #eee url("artwork/background-main.jpg") repeat;
+background-size : cover;
+color : #666;
+}
+
+
+
+			/*HEADER*/
+#banner {
+width : 100%;
+height : auto;
+padding-top : 30px;
+margin-left : auto;
+margin-right : auto;
+background-color : none;
+}
+#banner table {
+max-width : 90%;
+height : auto;
+margin-left : auto;
+margin-right : auto;
+}
+#banner td {
+width : auto;
+}
+#banner .banner-img {
+width : 500px;
+height : auto;
+}
+#banner p {
+font-weight : bold;
+padding : 0;
+margin-left : 5%;
+font-size : 150%;
+}
+
+
+
+
+#header {
+width : 100%;
+height : auto;;
+margin : 0;
+padding : 0;
+text-align : center ;
+}
+
+
+
+				/*MAIN MENU*/
+#mainmenu {
+float : center;
+
+}
+#mainmenu li {
+display : inline-block;
+padding : 5px 10px;
+margin : 10px;
+font-size : 150%;
+border : 3px solid #7CB9E8;
+background-color : #F0F8FF;
+border-radius : 20px;
+outline : 1px solid white;
+color : black;
+}
+#mainmenu a {
+text-decoration : none;
+color : black;
+font-size : 150%;
+}
+#mainmenu a:hover {
+cursor : pointer;
+}
+
+
+
+
+
+
+
+					/*CONTENT*/
+#content {
+float : center;
+max-width : 95%;
+margin : 0 auto;
+padding : 5%;
+line-height : 1.8em;
+}
+
+#features {
+display : block;
+width : 85%;
+=margin-left : auto;
+margin-right : auto;
+}
+#features li {
+display : inline-block;
+height : 200px;
+width : 200px;
+margin : 20px;
+text-align : center;
+vertical-align : center;
+background-color : white;
+border : 3px solid #7CB9E8;
+outline : 3px solid white;
+border-radius : 100px;
+}
+#features img {
+width : 40px;
+width : 40px;
+margin : 0;
+}
+#features p {
+padding : 30px 0 0 0;
+font-size : 18px;
+font-weight : bold;
+background : none;
+}
+
+
+}
+#lokal-band {
+display : block;
+width : 100%;
+margin-left : auto;
+margin-right : auto;
+border-top : 3px solid #7CB9E8;
+border-bottom : 3px solid #7CB9E8;
+outline : 3px solid white;
+}
+#lokal-band td {
+color : black;
+font-size : 100%;
+background : white;
+text-align : center;
+}
+#lokal-band button {
+display : block;
+padding : 5px 10px;
+margin : 10px;
+font-size : 100%;
+border : 3px solid #7CB9E8;
+background-color : #F0F8FF;
+border-radius : 20px;
+outline : 1px solid white;
+color : black;
+hover : pointer;
+}
+#lokal-band a {
+text-decoration : none;
+color : black;
+font-size : 80%;
+}
+
+
+
+#wilkommen {
+width : 70%;
+margin-top : 30px;
+margin-left : auto;
+margin-right : auto;
+}
+
+#kunden-table {
+width : 100%;
+height : auto;
+margin : 20px auto;
+padding-top : 10%;
+}
+#kunden-table td {
+width : 25%;
+}
+#kunden-table img {
+width : 80%;
+height : auto;
+margin : 20px auto;
+border : 3px solid #7CB9E8;
+outline : 3px solid white;
+border-radius : 10px;
+}
+#kunden-table a {
+display : block;
+color : black;
+font-size : 150%;
+font-weight : bold;
+padding : 20px;
+}
+
+
+#services {
+display : block;
+margin : 50px auto;
+width : 90%;
+clear : both;
+}
+#services li {
+display : inline-block;
+float : left;
+width : 220px;
+height : 180px;
+margin : 20px;
+background-color : white;
+border : 3px solid #7CB9E8;
+outline : 1px solid white;
+border-radius : 5px;
+padding : 5px;
+text-align : center;
+vertical-align : center;
+}
+#services img {
+width : 80px;
+height : 80px;
+margin : 0;
+}
+#services p {
+padding : 10px;
+font-size : 18px;
+font-weight : bold;
+background : none;
+}
+
+#services-note {
+display : block;
+width : 70%;
+margin : 50px auto;
+clear : both;
+}
+#services-note td {
+font-size : 18px;
+font-weight : bold;
+color : black;
+font-size : 18px;
+vertical-align : center;
+}
+#services-note img {
+display : block;
+margin : 10px;
+}
+
+
+
+
+#wissenswertes {
+display : block;
+width : 80%;
+margin : 100px auto;
+background-color : white;
+border : 3px solid #7CB9E8;
+outline : 3px solid white;
+border-radius : 10px;
+}
+#wissenswertes img {
+width : 300px;
+margin : 50px;
+}
+#wissenswertes p {
+font-size : 18px;
+color : black;
+}
+#wissenswertes hr {
+width : 60%;
+margin-left : auto;
+margin-right : auto;
+border-top : 3px dotted #7CB9E8;
+padding : 20px;
+}
+
+
+
+
+#preise {
+width : auto;
+margin : 50px auto;
+}
+#preise table {
+margin-left : auto;
+margin-right : auto;
+background-color : #F0F8FF;
+border : 3px solid #7CB9E8;
+outline : 1px solid white;
+border-radius : 5px;
+outline : 1px white;
+}
+#preise th {
+width : auto;
+background : #7CB9E8;
+font-weight : 900;
+padding : 5px 10px;
+}
+#preise td {
+width : auto;
+padding : 5px 10px;
+margin : 0;
+background-color : #F0F8FF;
+border-bottom : 1px solid #7CB9E8;
+text-align : center;
+}
+#preise .firstcolumn {
+text-align : left;
+}
+#preise .left-border {
+border-left : 1px solid #7CB9E8;;
+}
+
+#fotogalerie li {
+display : inline-block;
+float : left;
+width : 300px;
+height : 300px;
+margin : 20px;
+text-align : center;
+vertical-align : center;
+
+}
+#fotogalerie img {
+border : 3px solid #7CB9E8;
+outline : 3px solid white;
+border-radius : 10px;
+}
+
+#kontakt {
+width : 70%;
+margin-top : 30px;
+margin-left : auto;
+margin-right : auto;
+}
+#language-table {
+margin-left : auto;
+margin-right : auto;
+margin-top : 30px;
+margin-bottom : 30px;
+width : 70%;
+text-align : center;
+color : black;
+font-size : 120%;
+background-color : #F0F8FF;
+border : 3px solid #7CB9E8;
+outline : 1px solid white;
+}
+#language-table tr {
+height : 2 em;
+}
+#language-table td {
+font-size : 20px;
+}
+.language-bullet {
+display : inline-block;
+height : 0.8em;
+width : auto;
+padding : 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+					/*FOOTER*/
+#footer {
+clear : both;
+float : center;
+max-width : 800px;
+height : 30px;
+margin : 5% auto 0 auto;
+padding : 3% 0 30px 0;
+background : url("artwork/background-footer.png") repeat;
+background-size : 20%;
+background-position : 0% 50%;
+}
+#footer table {
+width: 100%;
+color : black;
+text-align : center;
+}
+
+
+
+
+
+			/*TYPOGRAPHY*/
+p {
+margin : 10px 20px 10px 15px;
+color : black;
+background-color : inherit;
+}
+h1 {
+margin : 0;
+padding : 30px;
+line-height : 1.3em;
+font-size : 200%;
+letter-spacing : 5px;
+color : black;
+background : inherit;
+}
+h2 {
+margin : 0 0 0 15px;
+margin : 0;
+padding : 30px;
+line-height : 1.3em;
+font-size : 160%;
+letter-spacing : 2px;
+color : black;
+background : inherit;
+}
+h3 {
+margin : 0;
+line-height : 1.3em;
+line-height : 1.5em;
+padding : 5px;
+font-size : 150%;
+letter-spacing : 5px;
+color : black;
+background : inherit;
+}
+h4 {
+margin : 10px 0;
+padding : 0 0 0px 0px;
+letter-spacing : 2px;
+color : black;
+font-size : 120%;
+}
+h5 {
+margin : 0 0 0 15px;
+padding : 0;
+font-size : 70%;
+letter-spacing : 5px;
+text-transform : uppercase;
+color : #045FB4;
+background : inherit;
+}
+blockquote {
+margin : 10px 20px 10px 15px;
+font-weight : bold;
+font-style : italic;
+color : #b29b35;
+}
+
+
+
+			/*CLASS*/
+.map {
+display : block;
+float : center;
+max-width : 400px;
+height : auto;
+margin : 30px auto;
+border : 3px solid #7CB9E8;
+outline : 1px solid white;
+border-radius : 10px;
+}
+.karte {
+border : 3px solid #7CB9E8;
+outline : 1px solid white;
+border-radius : 10px;
+}
+
+.flag {
+display : inline-block;
+width : 40px;
+height : auto;
+padding : 5px 30px;
+}
+
+
+.wilkommen-img {
+display : block;
+float : center;
+max-width : 600px;
+height : auto;
+margin : 0 auto;
+}
+
+.bullet-paw {
+height : 30px;
+width : auto;
+padding : 10px 10px 10px 0;
+}
+
+.wichtig-img {
+max-width : 40%;
+}
+
+.fotogalerie-horiz {
+width : 300px;
+height : auto;
+}
+.fotogalerie-vert {
+height : 300px;
+width : auto;
+}
+
+.
+
+
+					/*LINKS*/
+a, a:visited {
+text-decoration : none;
+color : #369;
+background : inherit;
+}
+a:hover {
+color : #333;
+background : inherit;
+}
+a img {
+border : none;
+}
+* {
+margin : 0;
+padding : 0;
+}
+body {
+padding-top : 0;
+font : 16px "Trebuchet MS", verdana, arial, sans-serif;
+background : #333;
+color : #000;
+}
+			/*WRAP*/
+#wrapper {
+width : 100%;
+background : #eee url("artwork/background-main.jpg") repeat;
+background-size : cover;
+color : #666;
+}
+
+
+
+			/*HEADER*/
+#banner {
+width : 100%;
+height : auto;
+padding-top : 30px;
+margin-left : auto;
+margin-right : auto;
+background-color : none;
+}
+#banner table {
+max-width : 90%;
+height : auto;
+margin-left : auto;
+margin-right : auto;
+}
+#banner td {
+width : auto;
+}
+#banner .banner-img {
+width : 500px;
+height : auto;
+}
+#banner p {
+font-weight : bold;
+padding : 0;
+margin-left : 5%;
+font-size : 150%;
+}
+
+
+
+
+#header {
+width : 100%;
+height : auto;;
+margin : 0;
+padding : 0;
+text-align : center ;
+}
+
+
+
+				/*MAIN MENU*/
+#mainmenu {
+float : center;
+
+}
+#mainmenu li {
+display : inline-block;
+padding : 5px 10px;
+margin : 10px;
+font-size : 150%;
+border : 3px solid #7CB9E8;
+background-color : #F0F8FF;
+border-radius : 20px;
+outline : 1px solid white;
+color : black;
+}
+#mainmenu a {
+text-decoration : none;
+color : black;
+font-size : 150%;
+}
+#mainmenu a:hover {
+cursor : pointer;
+}
+
+
+
+
+
+
+
+					/*CONTENT*/
+#content {
+float : center;
+max-width : 95%;
+margin : 0 auto;
+padding : 5%;
+line-height : 1.8em;
+}
+
+#lokal-img {
+width : 100%;
+height : 380px;
+margin-bottom : 50px;
+background : url("lokal.png");
+background-size : 100% auto;
+background-repeat : no-repeat;
+border-top : 3px solid #7CB9E8;
+outline-top : 1px solid white;
+border-bottom : 3px solid #7CB9E8;
+outline-bottom : 1px solid white;
+}
+#lokal-img table {
+width : 30%;
+height : 380px;
+}
+#lokal-img td {
+color : black;
+font-size : 140%;
+}
+#lokal-img button {
+display : block;
+padding : 5px 10px;
+margin : 10px;
+font-size : 150%;
+border : 3px solid #7CB9E8;
+background-color : #F0F8FF;
+border-radius : 20px;
+outline : 1px solid white;
+color : black;
+hover : pointer;
+}
+#lokal-img a {
+text-decoration : none;
+color : black;
+font-size : 80%;
+}
+
+
+#wilkommen {
+width : 70%;
+margin-top : 30px;
+margin-left : auto;
+margin-right : auto;
+}
+
+#kunden-table {
+width : 100%;
+height : auto;
+Margin : 50px auto;
+}
+#kunden-table td {
+width : 25%;
+}
+#kunden-table img {
+width : 80%;
+height : auto;
+margin-left : auto;
+margin-right : auto;
+border : 3px solid #7CB9E8;
+outline : 3px solid white;
+border-radius : 10px;
+}
+
+#visit-karte {
+width : 100%;
+height : 380px;
+margin-bottom : 50px;
+background : url("visit-karte.png");
+background-size : 100% auto;
+background-repeat : no-repeat;
+border-top : 3px solid #7CB9E8;
+outline-top : 1px solid white;
+border-bottom : 3px solid #7CB9E8;
+outline-bottom : 1px solid white;
+}
+#visit-karte table {
+width : 30%;
+width : 30%;
+width : 30%;
+height : 380px;
+float : right;
+}
+#visit-karte td {
+color : black;
+font-size : 140%;
+}
+
+
+
+
+#wichtig {
+float : center;
+width : contain;
+max-width : 90%;
+margin : 20px auto 20px auto;
+background : #F0F8FF;
+border : 3px solid #7CB9E8;
+outline : 1px solid white;
+border-radius : 5px;
+padding : 5px;
+}
+
+
+
+
+#service {
+float : center;
+width : contain;
+max-width : 90%
+margin : 20px auto 20px auto;
+background : #F0F8FF;
+border : 3px solid #7CB9E8;
+outline : 1px solid white;
+border-radius : 5px;
+padding : 5px;
+}
+#service li {
+display : block;
+font-size : 150%;
+margin : 10px;
+}
+
+
+
+#preise {
+width : auto;
+margin : 50px auto;
+}
+#preise table {
+margin-left : auto;
+margin-right : auto;
+background-color : #F0F8FF;
+border : 3px solid #7CB9E8;
+outline : 1px solid white;
+border-radius : 5px;
+outline : 1px white;
+}
+#preise th {
+width : auto;
+background : #7CB9E8;
+font-weight : 900;
+padding : 5px 10px;
+}
+#preise td {
+width : auto;
+padding : 5px 10px;
+margin : 0;
+background-color : #F0F8FF;
+border-bottom : 1px solid #7CB9E8;
+text-align : center;
+}
+#preise .firstcolumn {
+text-align : left;
+}
+#preise .left-border {
+border-left : 1px solid #7CB9E8;;
+}
+
+#fotogalerie li {
+display : inline-block;
+float : left;
+width : 300px;
+height : 300px;
+margin : 20px;
+text-align : center;
+vertical-align : center;
+
+}
+#fotogalerie img {
+border : 3px solid #7CB9E8;
+outline : 3px solid white;
+border-radius : 10px;
+}
+
+#kontakt {
+width : 70%;
+margin-top : 30px;
+margin-left : auto;
+margin-right : auto;
+}
+#language-table {
+margin-left : auto;
+margin-right : auto;
+margin-top : 30px;
+margin-bottom : 30px;
+width : 70%;
+text-align : center;
+color : black;
+font-size : 120%;
+background-color : #F0F8FF;
+border : 3px solid #7CB9E8;
+outline : 1px solid white;
+}
+#language-table tr {
+height : 1.5 em;
+}
+.language-bullet {
+display : inline-block;
+height : 0.8em;
+width : auto;
+padding : 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+					/*FOOTER*/
+#footer {
+clear : both;
+float : center;
+max-width : 800px;
+height : 30px;
+margin : 5% auto 0 auto;
+padding : 3% 0 30px 0;
+background : url("artwork/background-footer.png") repeat;
+background-size : 20%;
+background-position : 0% 50%;
+}
+#footer table {
+width: 100%;
+color : black;
+text-align : center;
+}
+
+
+
+
+
+			/*TYPOGRAPHY*/
+p {
+margin : 10px 20px 10px 15px;
+color : black;
+background-color : inherit;
+}
+h1 {
+margin : 0;
+padding : 30px;
+line-height : 1.3em;
+font-size : 200%;
+letter-spacing : 5px;
+color : black;
+background : inherit;
+}
+h2 {
+margin : 0 0 0 15px;
+padding : 5px;
+font-size : 120%;
+color : black;
+font-weight : 900;
+}
+h3 {
+margin : 0;
+line-height : 1.3em;
+line-height : 1.5em;
+padding : 5px;
+font-size : 150%;
+letter-spacing : 5px;
+color : black;
+background : inherit;
+}
+h4 {
+margin : 10px 0;
+padding : 0 0 0px 0px;
+letter-spacing : 2px;
+color : black;
+font-size : 120%;
+}
+h5 {
+margin : 0 0 0 15px;
+padding : 0;
+font-size : 70%;
+letter-spacing : 5px;
+text-transform : uppercase;
+color : #045FB4;
+background : inherit;
+}
+blockquote {
+margin : 10px 20px 10px 15px;
+font-weight : bold;
+font-style : italic;
+color : #b29b35;
+}
+
+
+
+			/*CLASS*/
+.map {
+display : block;
+float : center;
+max-width : 400px;
+height : auto;
+margin : 30px auto;
+border : 3px solid #7CB9E8;
+outline : 1px solid white;
+border-radius : 10px;
+}
+.karte {
+border : 3px solid #7CB9E8;
+outline : 1px solid white;
+border-radius : 10px;
+}
+
+.flag {
+display : inline-block;
+width : 40px;
+height : auto;
+padding : 5px 30px;
+}
+
+
+.wilkommen-img {
+display : block;
+float : center;
+max-width : 600px;
+height : auto;
+margin : 0 auto;
+}
+
+.bullet-paw {
+height : 30px;
+width : auto;
+padding : 10px 10px 10px 0;
+}
+
+.wichtig-img {
+max-width : 40%;
+}
+
+.fotogalerie-horiz {
+width : 300px;
+height : auto;
+}
+.fotogalerie-vert {
+height : 300px;
+width : auto;
+}
+
+.
+
+
+					/*LINKS*/
+a, a:visited {
+text-decoration : none;
+color : #369;
+background : inherit;
+}
+a:hover {
+color : #333;
+background : inherit;
+}
+a img {
+border : none;
+}
