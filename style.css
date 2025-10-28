@@ -242,6 +242,7 @@ clear : both;
 font-size : 18px;
 font-weight : bold;
 color : black;
+font-size : 18px;
 vertical-align : center;
 }
 #services-note img {
@@ -252,36 +253,22 @@ margin : 10px;
 
 
 
-/*#visit-karte table {
+#wissenswertes {
 display : block;
-width : 60%;
-height : auto;
-margin-left : auto;
-margin-right : auto;
+width : 80%;
+margin : 100px auto;
 background-color : white;
-border-top : 3px solid #7CB9E8;
-border-bottom : 3px solid #7CB9E8;
-outline : 3px solid white;
-}
-#visit-karte td {
-color : black;
-font-size : 100%;
-background : white;
-text-align : center;
-}*/
-
-
-
-#wichtig {
-float : center;
-width : contain;
-max-width : 90%;
-margin : 20px auto 20px auto;
-background : #F0F8FF;
 border : 3px solid #7CB9E8;
-outline : 1px solid white;
-border-radius : 5px;
-padding : 5px;
+outline : 3px solid white;
+border-radius : 10px;
+}
+#wissenswertes img {
+width : 300px;
+margin : 50px;
+}
+#wissenswertes p {
+font-size : 18px;
+color : black;
 }
 
 
@@ -357,7 +344,10 @@ border : 3px solid #7CB9E8;
 outline : 1px solid white;
 }
 #language-table tr {
-height : 1.5 em;
+height : 2 em;
+}
+#language-table td {
+font-size : 20px;
 }
 .language-bullet {
 display : inline-block;
@@ -416,10 +406,13 @@ background : inherit;
 }
 h2 {
 margin : 0 0 0 15px;
-padding : 5px;
-font-size : 120%;
+margin : 0;
+padding : 30px;
+line-height : 1.3em;
+font-size : 160%;
+letter-spacing : 2px;
 color : black;
-font-weight : 900;
+background : inherit;
 }
 h3 {
 margin : 0;
