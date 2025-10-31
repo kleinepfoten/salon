@@ -180,6 +180,11 @@ height : auto;
 margin : 20px auto;
 padding-top : 10%;
 }
+#kunden-table th {
+font-size : 32px;
+color : black;
+font-weight : bold;
+}
 #kunden-table td {
 width : 25%;
 }
@@ -269,6 +274,12 @@ margin : 50px;
 #wissenswertes p {
 font-size : 18px;
 color : black;
+}
+#wissenswertes hr {
+width : 60%;
+margin-left : auto;
+margin-right : auto;
+border-top : 3px dotted #7CB9E8;
 }
 
 
