@@ -36,6 +36,9 @@ margin-right : auto;
 #banner td {
 width : auto;
 }
+#banner td {
+text-align : center;
+}
 #banner .banner-img {
 width : 500px;
 height : auto;
@@ -44,7 +47,7 @@ height : auto;
 font-weight : bold;
 padding : 0;
 margin-left : 5%;
-font-size : 150%;
+font-size :40px;
 }
 
 
@@ -100,38 +103,90 @@ padding : 5%;
 line-height : 1.8em;
 }
 
+#greeting {
+width : 80%;
+margin-left : auto;
+margin-right : auto;
+}
+.greeting-left {
+width : 400px;
+padding : 30px;
+}
 #features {
 display : block;
-width : 85%;
-=margin-left : auto;
+width : 100%;
+margin-left : auto;
 margin-right : auto;
 }
 #features li {
 display : inline-block;
-height : 200px;
-width : 200px;
-margin : 20px;
-text-align : center;
+height : 40px;
+width : 400px;
+margin : 5px;
+text-align : left;
 vertical-align : center;
-background-color : white;
-border : 3px solid #7CB9E8;
-outline : 3px solid white;
-border-radius : 100px;
+background-color : #008000;
+border-radius : 10px;
 }
-#features img {
-width : 40px;
-width : 40px;
-margin : 0;
+.greeting-bullet-tick {
+float : left;
+width : 20px;
+height : 20px;
+margin : 15px 10px;
 }
 #features p {
-padding : 30px 0 0 0;
-font-size : 18px;
+float : left;
+font-size : 20px;
 font-weight : bold;
+color : white;
 background : none;
+margin : 5px 0;
 }
 
 
+#kunden {
+width : 80%;
+margin-top : 60px;
+margin-left : auto;
+margin-right : auto;
 }
+#kunden td {
+width : 50%;
+text-align : center;
+vertical-align : center;
+}
+#kunden p {
+font-size : 32px;
+color : black;
+margin : 30px 10px;
+}
+#kunden button {
+display : block;
+margin : 20px 10px;
+font-size : 24px;
+border : 3px solid #7CB9E8;
+background-color : #F0F8FF;
+border-radius : 20px;
+outline : 1px solid white;
+color : black;
+hover : pointer;
+}
+#kunden a {
+text-decoration : none;
+color : black;
+font-size : 24px;
+padding : 20px;
+}
+#kunden img {
+width : 300px;
+height : auto;
+margin : 20px auto;
+border : 3px solid #7CB9E8;
+outline : 3px solid white;
+border-radius : 10px;
+}
+
+
 #lokal-band {
 display : block;
 width : 100%;
@@ -165,14 +220,6 @@ color : black;
 font-size : 80%;
 }
 
-
-
-#wilkommen {
-width : 70%;
-margin-top : 30px;
-margin-left : auto;
-margin-right : auto;
-}
 
 #kunden-table {
 width : 100%;
@@ -260,26 +307,31 @@ margin : 10px;
 
 #wissenswertes {
 display : block;
-width : 80%;
+width : 70%;
 margin : 100px auto;
 background-color : white;
 border : 3px solid #7CB9E8;
 outline : 3px solid white;
 border-radius : 10px;
+}wissenswertes ul {
+clear : none;
+}
+#wissenswertes li {
+display : block;
+width : 60%;
+text-align : left;
 }
 #wissenswertes img {
-width : 300px;
-margin : 50px;
+display : block;
+float : left;
+max-width : 200px;
+padding : 10px;
+height : contain;
+margin : 10px;
 }
 #wissenswertes p {
-font-size : 18px;
+font-size : 20px;
 color : black;
-}
-#wissenswertes hr {
-width : 60%;
-margin-left : auto;
-margin-right : auto;
-border-top : 3px dotted #7CB9E8;
 }
 
 
