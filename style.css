@@ -109,6 +109,12 @@ margin-right : auto;
 width : 400px;
 padding : 30px;
 }
+#greeting p {
+color : black;
+font-size : 24px;
+margin-left : 20%;
+margin-right : 20%;
+}
 #features {
 display : block;
 width : 100%;
@@ -320,7 +326,7 @@ clear : none;
 }
 #wissenswertes li {
 display : block;
-width : 60%;
+width : 100%;
 text-align : left;
 }
 #wissenswertes img {
