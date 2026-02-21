@@ -131,6 +131,10 @@ width : 20px;
 height : 20px;
 margin : 15px 10px;
 }
+#greeting p {
+color : black;
+font-size : 20px;
+}
 #features p {
 float : left;
 font-size : 20px;
@@ -186,7 +190,7 @@ border-radius : 10px;
 
 #lokal-band {
 display : block;
-width : 100%;
+width : 80%;
 margin-left : auto;
 margin-right : auto;
 border-top : 3px solid #7CB9E8;
@@ -195,34 +199,35 @@ outline : 3px solid white;
 }
 #lokal-band td {
 color : black;
-font-size : 100%;
 background : white;
 text-align : center;
+}
+#lokal-band {
+color : black;
+font-size : 24px;
 }
 #lokal-band button {
 display : block;
 padding : 5px 10px;
 margin : 10px;
-font-size : 100%;
 border : 3px solid #7CB9E8;
 background-color : #F0F8FF;
 border-radius : 20px;
 outline : 1px solid white;
-color : black;
 hover : pointer;
 }
 #lokal-band a {
 text-decoration : none;
 color : black;
-font-size : 80%;
+font-size : 24px;
 }
 
 
 #kunden-table {
-width : 100%;
+width : 80%;
 height : auto;
 margin : 20px auto;
-padding-top : 10%;
+padding-top : 50px;
 }
 #kunden-table th {
 font-size : 32px;
