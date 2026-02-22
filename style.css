@@ -196,7 +196,7 @@ border-radius : 10px;
 
 #lokal-band {
 display : block;
-width : 80%;
+width : 90%;
 margin-left : auto;
 margin-right : auto;
 border-top : 3px solid #7CB9E8;
@@ -208,7 +208,7 @@ color : black;
 background : white;
 text-align : center;
 }
-#lokal-band {
+#lokal-band p {
 color : black;
 font-size : 24px;
 }
@@ -222,10 +222,28 @@ border-radius : 20px;
 outline : 1px solid white;
 hover : pointer;
 }
+.maps-pin {
+float : left;
+height : 40px;
+width : auto;
+padding : 5px;
+}
+.camera {
+float : left;
+width : 30px;
+height : auto;
+padding : 5px;
+}
 #lokal-band a {
 text-decoration : none;
 color : black;
 font-size : 24px;
+m
+}
+.lokal-img {
+width : 80%;
+margin-left : auto;
+margin-right : auto;
 }
 
 
