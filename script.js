@@ -8,10 +8,10 @@ var i = 0;
 var images = [];
 var time = 2000;
 
-images[0] = "kunden/aug2025-1.png"
-images[1] = "kunden/aug2025-2.png"
-images[2] = "kunden/aug2025-3.png"
-images[3] = "kunden/aug2025-4.png"
+images[0] = "kunden/aug2025-11.jpg"
+images[1] = "kunden/mica2.jpg"
+images[2] = "kunden/Nov2025-1.jpg"
+images[3] = "kunden/nov2025-3.jpg"
 
 function changeImg () {
 document.cycle.src = images[i];
